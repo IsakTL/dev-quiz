@@ -35,8 +35,9 @@ jobs:
 
       # Start program
       - name: Run Start
-        run: npm start
-        
+        start: npm start
+        component: true
+
       # Run tests
       - name: Run Tests
         run: npm run test

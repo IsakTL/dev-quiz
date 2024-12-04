@@ -33,12 +33,12 @@ jobs:
       - name: Run Build
         run: npm run build
 
-      # Start program
-      - name: Run Start
-        #start vs run?
-        start: npm start
-        #use of component?
-        component: true
+      # # Start program
+      # - name: Run Start
+      #   #start vs run?
+      #   start: npm start
+      #   #use of component?
+      #   component: true
 
       # Run tests
       - name: Run Tests

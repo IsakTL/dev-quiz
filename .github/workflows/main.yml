@@ -35,9 +35,11 @@ jobs:
 
       # Start program
       - name: Run Start
+        #start vs run?
         start: npm start
+        #use of component?
         component: true
 
       # Run tests
       - name: Run Tests
-        run: npm run test
+        run: npm run test-component
